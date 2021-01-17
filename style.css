@@ -1,0 +1,128 @@
+body {
+    background: rgb(20, 20, 20);
+  }
+
+/* Nav bar universal --------------------------------------------------------------------------- */
+
+.andrew {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 2em;
+  margin-left: 2.5%;
+  }
+
+.andrew:hover {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.25em;
+  text-decoration: none; 
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-link:hover {
+  font-size: 1.4em;
+  text-decoration-line: underline;
+}
+  
+.navbar {
+  border-bottom-left-radius: 75%;
+  border-bottom-right-radius: 5%;
+}
+/* Index/About me ------------------------------------------------------------------------------ */
+
+.cardCont {
+  background-color: rgb(34, 31, 31);
+  margin-top: 10%; 
+  margin-left: 10%; 
+  position: relative;
+  border-radius: 5%;
+}
+
+.nighttime {
+  height: 100%;
+  width: 34%;
+  padding-top: 0%;
+  position: absolute;
+  left: 0%;
+  border-top-left-radius: 5%;
+  border-bottom-left-radius: 5%;
+  border-bottom-right-radius: 100%; 
+}
+
+.aboutMeH {
+  text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+}
+
+.aboutMeP {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Portfolio ----------------------------------------------------------------------------------- */
+
+.projects {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding-top: 2%;
+ 
+}
+
+.containerPort {
+  width: 75%;
+  margin-left: 13%;
+}
+.cardPort {
+  background-color:rgb(34, 31, 31);
+  color: white;
+  padding: 10px;
+  margin-top: 0.5%;
+  margin-right: 0.5%;
+}
+
+.cardPort:hover {
+  margin-top: -0.5%;
+}
+
+
+/* Contact ------------------------------------------------------------------------------------- */
+
+.contactme {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.message-fluid {
+  margin-left: 33.5%;
+}
+
+.form-control {
+  background-color: rgb(34, 31, 31);
+}
+
+.form-control:valid {
+  background-color: rgb(34, 31, 31);
+}
+
+#Textarea1 {
+  color: white;
+}
+
+#ControlInput1 {
+  color: white;
+}
+
+.form-label {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Placeholder Project ------------------------------------------------------------------------- */
+
+.imgPrj {
+  margin-left: 7.5%;
+  margin-top: 1%;
+}
